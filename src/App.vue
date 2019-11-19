@@ -57,7 +57,7 @@
 
 <script>
 /* eslint-disable */ 
-  export default {
+ export default {
     data () {
       return {
         sideNav: false
