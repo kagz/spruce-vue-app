@@ -21,11 +21,11 @@ new Vue({
   render: h => h(App),
   created () {
     firebase.initializeApp({
-      apiKey: 'AIzaSyCFYWd6FpR53u4hSPXQSjOYeZNPF1FxG2M',
-      authDomain: 'yt-devmeetup.firebaseapp.com',
-      databaseURL: 'https://yt-devmeetup.firebaseio.com',
-      projectId: 'yt-devmeetup',
-      storageBucket: ''
+      apiKey: 'AIzaSyCa2VuBK_54uSIygqegmguYVJiaCk9gliU',
+      authDomain: 'kamagera-aa372.firebaseapp.com',
+      databaseURL: 'https://kamagera-aa372.firebaseio.com/',
+      projectId: 'kamagera-aa372',
+      storageBucket: 'gs://kamagera-aa372.appspot.com'
     })
     firebase.auth().onAuthStateChanged((user) => {
       if (user) {
