@@ -10,7 +10,7 @@ import EditMeetupDetailsDialog from './components/Meetup/Edit/EditMeetupDetailsD
 import EditMeetupDateDialog from './components/Meetup/Edit/EditMeetupDateDialog.vue'
 import EditMeetupTimeDialog from './components/Meetup/Edit/EditMeetupTimeDialog.vue'
 import RegisterDialog from './components/Meetup/Registration/RegisterDialog.vue'
-
+import './assets/js/inspinia'
 Vue.use(Vuetify)
 Vue.config.productionTip = false
 
@@ -23,6 +23,7 @@ Vue.component('app-meetup-register-dialog', RegisterDialog)
 
 /* eslint-disable no-new */
 new Vue({
+  /* eslint-disable */ 
   el: '#app',
   router,
   store,
